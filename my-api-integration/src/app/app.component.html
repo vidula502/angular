@@ -1,0 +1,12 @@
+<div *ngIf="entries" class="container">
+  <h1 class="text-3xl font-bold text-slate-900 mt-5">API Integration</h1>
+  <ul class="flex flex-wrap -m-4 my-5">
+    <li *ngFor="let item of entries" class="m-4 w-64">
+        <div class="border border-slate-900 p-5 overflow-hidden h-full bg-slate-900 text-gray-400">
+            <h4 class="text-2xl font-sans font-semibold"><span class="font-bold">API : </span>{{ item.API }}</h4>
+            <p><span class="font-bold">Description : </span> {{ item.Description }}</p>
+            <p class="whitespace-pre-wrap"><span class="font-bold">Link : </span>{{ item.Link }}</p>
+        </div>
+    </li>
+  </ul> 
+</div>

@@ -1,0 +1,15 @@
+.container{
+    max-width: 100%;
+    margin: 0 auto;
+    width: 1140px;
+    padding: 0 1rem;
+}
+.apiList{
+    display: flex;
+    flex-wrap: wrap;
+}
+.apiList li{
+    width: 250px;
+    margin: 1rem;
+    padding: 1rem;
+}
